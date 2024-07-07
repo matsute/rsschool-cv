@@ -1,0 +1,46 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #0C0032;
+}
+
+.container {
+    max-width: 1440px;
+}
+
+.header-navbar {
+    display: flex;
+    justify-content: end;
+}
+
+.header-navbar li {
+    padding: 20px 0;
+    margin-left: 35px;
+}
+
+.header-navbar li:nth-child(1) {
+    margin-left: 0;
+}
+
+.header-navbar li a {
+   color: white;
+   font-size: 20px;
+
+   transition: 0.2ms;
+}
+
+.header-navbar li a:hover {
+    filter: blur(0.8px);
+ }
