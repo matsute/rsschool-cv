@@ -1,0 +1,29 @@
+.footer--color {
+    background-color: var(--first-color);
+}
+
+.footer--color img {
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 20%;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+
+.footer p a {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer p {
+    color: #fff;
+    font-size: 20px;
+}
