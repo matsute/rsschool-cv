@@ -1,13 +1,20 @@
+:root {
+    --first-color: #0C0032;
+    --second-color: #190061;
+    --third-color: #240090;
+    --fourth-color: #3500D3;
+    --fifth-color: #282828;
+}
+
 *, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-img {
-    width: 200px;
-    height: 200px;
- }
+h1, h2 {
+    color: var(--fifth-color);
+}
 
 ul {
     list-style: none;
@@ -17,123 +24,13 @@ a {
     text-decoration: none;
 }
 
-.header {
-    background-color: #0C0032;
+img {
+    width: 240px;
+    height: 240px;
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 1420px;
     margin: 0 auto;
 }
 
-nav {
-    padding: 0 20px;
-}
-
-.header-navbar {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-}
-
-.header-navbar li {
-    padding: 20px 0;
-    margin-left: 35px;
-}
-
-.header-navbar li:nth-child(1) {
-    margin-left: 0;
-}
-
-.header-navbar li a {
-   color: white;
-   font-size: 20px;
-
-   transition: 0.2ms;
-}
-
-.header-navbar li a:hover {
-    filter: blur(0.8px);
-}
-
-main {
-    color: #190061;
-}
-
-.main-header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.main-header--sz {
-    margin: 40px 0;
-}
-
-.main-header img {
-    border-radius: 50%;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
-}
-
-.main-info {
-    text-align: center;
-}
-
-.main-info h1 {
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
-
-.main-info div {
-    margin: 0 auto;
-    width: 120px;
-    height: 2px;
-    background-color: #3500D3;
-}
-
-.main-info p {
-    margin-top: 20px;
-    text-transform: uppercase;
-}
-
-.main-section {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 60px 0;
-}
-
-.main-section:nth-child(1) {
-    margin-top: 0;
-}
-
-.main-section section {
-    text-align: center;
-    width: 600px;
-}
-
-.main-section h2 {
-    margin-bottom: 20px;
-}
-
-.main-section p {
-    font-size: 18px;
-    line-height: 20px;
-    margin-bottom: 8px;
-}
-
-.main-text--color {
-    color:  #3500D3;
-}
-
-.main-section h2 pre{
-    text-align: center;
-}
-
-footer {
-    background-color: #0C0032;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}
