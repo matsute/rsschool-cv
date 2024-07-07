@@ -96,4 +96,44 @@ main {
     text-transform: uppercase;
 }
 
+.main-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px 0;
+}
 
+.main-section:nth-child(1) {
+    margin-top: 0;
+}
+
+.main-section section {
+    text-align: center;
+    width: 600px;
+}
+
+.main-section h2 {
+    margin-bottom: 20px;
+}
+
+.main-section p {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 8px;
+}
+
+.main-text--color {
+    color:  #3500D3;
+}
+
+.main-section h2 pre{
+    text-align: center;
+}
+
+footer {
+    background-color: #0C0032;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
